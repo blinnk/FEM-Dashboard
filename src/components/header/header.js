@@ -53,6 +53,7 @@ const Header = () => {
 					onMouseOut={returnTextColor}
 				>
 					<Toggle
+						aria-label='Toggle Theme'
 						checked={mode === 'light' ? true : false}
 						onChange={setMode}
 						icons={false}
