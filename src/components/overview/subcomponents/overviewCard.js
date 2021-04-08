@@ -47,7 +47,7 @@ const OverviewCard = ({ metricType, icon, number, trendDir, percentageDiff }) =>
 				<span className='number' style={styles.darkText}>
 					{number}
 				</span>
-				<span className='trending'>
+				<div className='trending'>
 					<div className={`card__trending ${trendDir}`}>
 						<img
 							src={trendDir === 'upTrend' ? `${upTrend}` : `${downTrend}`}
@@ -56,7 +56,7 @@ const OverviewCard = ({ metricType, icon, number, trendDir, percentageDiff }) =>
 						/>
 						<span className='trend-number'>{percentageDiff}%</span>
 					</div>
-				</span>
+				</div>
 			</div>
 		</div>
 	);
