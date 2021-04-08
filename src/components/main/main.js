@@ -1,3 +1,4 @@
+
 import Card from './subcomponents/card';
 import '../../styles/components.scss';
 import fb from '../../images/icon-facebook.svg';
@@ -5,7 +6,10 @@ import twitter from '../../images/icon-twitter.svg';
 import ig from '../../images/icon-instagram.svg';
 import yt from '../../images/icon-youtube.svg';
 
+
 const Main = () => {
+
+
 	return (
 		<div className='main_row'>
 			<Card

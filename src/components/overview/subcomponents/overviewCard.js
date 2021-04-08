@@ -1,24 +1,60 @@
+import { useContext } from 'react';
+
 import downTrend from '../../../images/icon-down.svg';
 import upTrend from '../../../images/icon-up.svg';
-import fb from '../../../images/icon-facebook.svg';
-import twitter from '../../../images/icon-twitter.svg';
-import ig from '../../../images/icon-instagram.svg';
-import yt from '../../../images/icon-youtube.svg';
+import { theme } from '../../../contexts/theme/theme';
+import { ThemeContext } from '../../../contexts/theme/themeProvider';
 
-const OverviewCard = () => {
+const getStyles = (mode) => ({
+	card: {
+		backgroundColor: theme[mode].cardBg,
+	},
+	darkText: {
+		color: theme[mode].darkText,
+	},
+	textColor: {
+		color: theme[mode].textColor,
+	},
+});
+
+const OverviewCard = ({ metricType, icon, number, trendDir, percentageDiff }) => {
+	const { mode } = useContext(ThemeContext);
+	const styles = getStyles(mode);
+
+	function changeBackground(e) {
+		e.target.style.background = theme[mode].cardHover;
+		e.target.style.cursor = 'pointer';
+	}
+
+	function returnBackground(e) {
+		e.target.style.background = theme[mode].cardBg;
+	}
+
 	return (
-		<div className='overview__card'>
+		<div
+			className='overview__card'
+			style={styles.card}
+			onMouseOver={changeBackground}
+			onMouseLeave={returnBackground}
+		>
 			<div className='overview__card-row'>
-				<span className='type'>Page Views</span>
-				<img src={fb} alt='' />
+				<span className='type' style={styles.textColor}>
+					{metricType}
+				</span>
+				<img src={icon} alt={icon} className='icon' />
 			</div>
 			<div className='overview__card-row'>
-				<span className='value'>89</span>
+				<span className='number' style={styles.darkText}>
+					{number}
+				</span>
 				<span className='trending'>
-					<img src={downTrend} alt='' />
-					<div className='card__trending'>
-						<img src={downTrend} alt='' className='icon' />
-						<span className='today'>52%</span>
+					<div className={`card__trending ${trendDir}`}>
+						<img
+							src={trendDir === 'upTrend' ? `${upTrend}` : `${downTrend}`}
+							alt={trendDir}
+							className='trendir-icon'
+						/>
+						<span className='trend-number'>{percentageDiff}%</span>
 					</div>
 				</span>
 			</div>
