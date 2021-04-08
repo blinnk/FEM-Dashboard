@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/FEM-Dashboard/static/css/main.1d51f6dc.chunk.css",
+    "main.js": "/FEM-Dashboard/static/js/main.9f4c6a02.chunk.js",
+    "main.js.map": "/FEM-Dashboard/static/js/main.9f4c6a02.chunk.js.map",
+    "runtime-main.js": "/FEM-Dashboard/static/js/runtime-main.5c174887.js",
+    "runtime-main.js.map": "/FEM-Dashboard/static/js/runtime-main.5c174887.js.map",
+    "static/js/2.ced8b4ce.chunk.js": "/FEM-Dashboard/static/js/2.ced8b4ce.chunk.js",
+    "static/js/2.ced8b4ce.chunk.js.map": "/FEM-Dashboard/static/js/2.ced8b4ce.chunk.js.map",
+    "index.html": "/FEM-Dashboard/index.html",
+    "static/css/main.1d51f6dc.chunk.css.map": "/FEM-Dashboard/static/css/main.1d51f6dc.chunk.css.map",
+    "static/js/2.ced8b4ce.chunk.js.LICENSE.txt": "/FEM-Dashboard/static/js/2.ced8b4ce.chunk.js.LICENSE.txt",
+    "static/media/icon-down.0c77426d.svg": "/FEM-Dashboard/static/media/icon-down.0c77426d.svg",
+    "static/media/icon-facebook.8deee3e3.svg": "/FEM-Dashboard/static/media/icon-facebook.8deee3e3.svg",
+    "static/media/icon-instagram.568b5795.svg": "/FEM-Dashboard/static/media/icon-instagram.568b5795.svg",
+    "static/media/icon-twitter.a0c5f64d.svg": "/FEM-Dashboard/static/media/icon-twitter.a0c5f64d.svg",
+    "static/media/icon-up.359200b2.svg": "/FEM-Dashboard/static/media/icon-up.359200b2.svg",
+    "static/media/icon-youtube.cad14335.svg": "/FEM-Dashboard/static/media/icon-youtube.cad14335.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c174887.js",
+    "static/js/2.ced8b4ce.chunk.js",
+    "static/css/main.1d51f6dc.chunk.css",
+    "static/js/main.9f4c6a02.chunk.js"
+  ]
+}
