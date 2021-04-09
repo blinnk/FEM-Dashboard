@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FEM-Dashboard/static/css/main.1d51f6dc.chunk.css",
+    "main.css": "/FEM-Dashboard/static/css/main.a0e18965.chunk.css",
     "main.js": "/FEM-Dashboard/static/js/main.eb033de6.chunk.js",
     "main.js.map": "/FEM-Dashboard/static/js/main.eb033de6.chunk.js.map",
     "runtime-main.js": "/FEM-Dashboard/static/js/runtime-main.5c174887.js",
@@ -8,7 +8,7 @@
     "static/js/2.ced8b4ce.chunk.js": "/FEM-Dashboard/static/js/2.ced8b4ce.chunk.js",
     "static/js/2.ced8b4ce.chunk.js.map": "/FEM-Dashboard/static/js/2.ced8b4ce.chunk.js.map",
     "index.html": "/FEM-Dashboard/index.html",
-    "static/css/main.1d51f6dc.chunk.css.map": "/FEM-Dashboard/static/css/main.1d51f6dc.chunk.css.map",
+    "static/css/main.a0e18965.chunk.css.map": "/FEM-Dashboard/static/css/main.a0e18965.chunk.css.map",
     "static/js/2.ced8b4ce.chunk.js.LICENSE.txt": "/FEM-Dashboard/static/js/2.ced8b4ce.chunk.js.LICENSE.txt",
     "static/media/icon-down.0c77426d.svg": "/FEM-Dashboard/static/media/icon-down.0c77426d.svg",
     "static/media/icon-facebook.8deee3e3.svg": "/FEM-Dashboard/static/media/icon-facebook.8deee3e3.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5c174887.js",
     "static/js/2.ced8b4ce.chunk.js",
-    "static/css/main.1d51f6dc.chunk.css",
+    "static/css/main.a0e18965.chunk.css",
     "static/js/main.eb033de6.chunk.js"
   ]
 }
